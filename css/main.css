@@ -1,0 +1,15 @@
+img {
+    width: 55%;
+    padding: 0 23%;
+}
+p {
+    font: 1em Arial, Helvetica, sans-serif;
+    margin-top: 0;
+}
+p:first-of-type {
+    text-indent: 7%;
+}
+p:first-of-type::first-letter{
+    color: cornflowerblue;
+    font: bold 4em Arial, Helvetica, sans-serif;
+}
